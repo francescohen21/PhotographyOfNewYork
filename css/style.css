@@ -6,6 +6,7 @@ body {
   border-style: double;
   padding-left: 40px;
   margin-top: 20px;
+  line-height: 1.6;
 }
 
 footer{
@@ -13,7 +14,8 @@ footer{
 }
 
 .questions{
-
+  text-align: center;
+  line-height: 1.6;
 }
 
 *{
@@ -23,4 +25,25 @@ footer{
 header{
   opacity: 0.6;
   font-style: italic;
+}
+
+h1{
+  font-size: 70px;
+  text-align: center;
+}
+
+h3{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#nestedTable table tr td{
+  border: 1px solid black;
+  text-align: center;
+}
+
+table tr td button{
+  padding: 470px 10px;
+  margin: 4px 2px;
+  border: none;
 }
