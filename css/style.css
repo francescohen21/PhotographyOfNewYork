@@ -37,13 +37,16 @@ header h3{
   opacity: 0.6;
   font-style: italic;
   margin-top: 1px;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 h1{
   font-size: 70px;
   text-align: center;
   color: #DD6E42;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 h3{
@@ -52,7 +55,7 @@ h3{
   color: #4F6D7A;
 }
 
-#nestedTable table tr td{
+.nestedTable table tr td{
   border: 5px solid #C0D6DF;
   text-align: center;
   color: #DD6E42;
