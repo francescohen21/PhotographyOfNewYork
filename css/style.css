@@ -14,16 +14,16 @@ footer{
   opacity: 0.5;
 }
 
-.questions{
+main{
   text-align: center;
   line-height: 1.6;
 }
 
-.questions p{
+main p{
   color: #4F6D7A;
 }
 
-.questions h2{
+main h2{
   margin-top: 5px;
   margin-bottom: 5px;
   color: #DD6E42;
@@ -58,8 +58,16 @@ h3{
   color: #DD6E42;
 }
 
-table tr td button{
-  padding: 470px 10px;
+#aboutMe button{
+  padding: 250px 18px;
+  margin: 4px 2px;
+  border: none;
+  background-color: #DD6E42;
+  color: #EAEAEA;
+}
+
+#home button{
+  padding: 250px 30px;
   margin: 4px 2px;
   border: none;
   background-color: #DD6E42;
@@ -74,6 +82,10 @@ table tr td button{
   line-height: 1.6;
   border-color: #C0D6DF;
   color: #DD6E42;
+}
+
+#learnMore p{
+  color: #4F6D7A;
 }
 
 a:link{
@@ -91,4 +103,7 @@ a:hover{
 #homeButton button{
   margin-bottom: 1px;
   margin-top: 5px;
+  border: none;
+  background-color: #DD6E42;
+  color: #EAEAEA;
 }
