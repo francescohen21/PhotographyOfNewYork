@@ -3,37 +3,36 @@
 /*4F6D7A: dark blue*/
 /*C0D6DF: light blue*/
 /*EAEAEA: silvery grey*/
-
 body {
   background-color: #E8DAB2;
 }
 
-footer{
+footer {
   margin-top: 100px;
   color: #DD6E42;
   opacity: 0.5;
 }
 
-main{
+main {
   text-align: center;
   line-height: 1.6;
 }
 
-main p{
+main p {
   color: #4F6D7A;
 }
 
-main h2{
+main h2 {
   margin-top: 5px;
   margin-bottom: 5px;
   color: #DD6E42;
 }
 
-*{
+* {
   font-family: 'Neucha';
 }
 
-header h3{
+header h3 {
   opacity: 0.6;
   font-style: italic;
   margin-top: 1px;
@@ -41,7 +40,7 @@ header h3{
   text-align: center;
 }
 
-h1{
+h1 {
   font-size: 70px;
   text-align: center;
   color: #DD6E42;
@@ -49,19 +48,19 @@ h1{
   margin-top: 5px;
 }
 
-h3{
+h3 {
   margin-top: 40px;
   margin-bottom: 40px;
   color: #4F6D7A;
 }
 
-.nestedTable table tr td{
+.nestedTable table tr td {
   border: 5px solid #C0D6DF;
   text-align: center;
   color: #DD6E42;
 }
 
-#aboutMe button{
+#aboutMe button {
   padding: 250px 18px;
   margin: 4px 2px;
   border: none;
@@ -69,7 +68,7 @@ h3{
   color: #EAEAEA;
 }
 
-#home button{
+#home button {
   padding: 250px 30px;
   margin: 4px 2px;
   border: none;
@@ -77,7 +76,15 @@ h3{
   color: #EAEAEA;
 }
 
-#learnMore{
+#homeButton button {
+  margin-bottom: 1px;
+  margin-top: 5px;
+  border: none;
+  background-color: #DD6E42;
+  color: #EAEAEA;
+}
+
+#learnMore {
   border: 7px;
   border-style: double;
   padding-left: 40px;
@@ -87,26 +94,18 @@ h3{
   color: #DD6E42;
 }
 
-#learnMore p{
+#learnMore p {
   color: #4F6D7A;
 }
 
-a:link{
+a:link {
   color: #000000;
 }
 
-a:visited{
+a:visited {
   color: #4F6D7A;
 }
 
-a:hover{
+a:hover {
   color: #DD6E42;
-}
-
-#homeButton button{
-  margin-bottom: 1px;
-  margin-top: 5px;
-  border: none;
-  background-color: #DD6E42;
-  color: #EAEAEA;
 }
