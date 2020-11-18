@@ -1,0 +1,33 @@
+<%- include('global/header', {title: "Home", blog_array: blog_array}); %>
+
+<!-- media row -->
+  <div class="row">
+    <!-- photo -->
+    <div class="col s4">
+      <h3> An Iconic Event </h3>
+      <img src="images/image2.jpg" alt="Tightrope walking">
+      <figcaption>Tightrope Walking Across the Twin Towers</figcaption>
+    </div>
+
+    <!-- video -->
+    <div class="col s4">
+      <h3> Summer 2020 </h3>
+      <iframe width="375" height="315" src="https://www.youtube.com/embed/rYTNO_WtNys">
+      </iframe>
+      <figcaption>New York City In Quarantine by the New Yorker</figcaption>
+    </div>
+
+    <!-- audio -->
+    <div class="col s4">
+      <h3> An Iconic Song </h3>
+      <iframe src="https://open.spotify.com/embed/track/3xkxcbnc7G3XYuZt6eUnI5" width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
+      <figcaption>A clip of Empire State of Mind by JAY-Z and Alicia Keys</figcaption>
+    </div>
+  </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+<%- include('global/footer'); %>
+
+</html>
