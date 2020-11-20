@@ -1,42 +1,39 @@
 <%- include('global/header', {title: data.title, blog_array: blog_array}); %>
 
-<h1><%= data.title %></h1>
-
- <!--
-<!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8" />
-  <title><%= data.title %></title>
-  <meta name="author" content="You">
-  <meta name="description" content="Blog Post #1">
-  <meta content="text/html" http-equiv="Content-type" />
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-</head>
-
-<header>
-  <h1><%= data.title %></h1>
-</header>
--->
+<h1>
+  <%= data.title %>
+</h1>
 
 <body>
   <div class="row">
     <div class="col s4">
-      <h3><%= data.author %></h3>
+      <h3>
+        <%= data.author %>
+      </h3>
     </div>
     <div class="col s4">
-      <h3><%= data.date %></h3>
+      <h3>
+        <%= data.date %>
+      </h3>
     </div>
     <div class="col s4">
       <div class="collection">
         <% for(let i=0; i<data.tags.length; i++){ %>
-          <h3 class="collection-item teal lighten-1"> <%= data.tags[i] %> </h3>
+        <h3 class="collection-item teal lighten-1">
+          <%= data.tags[i] %>
+        </h3>
         <%}%>
       </div>
     </div>
   </div>
-  <p><%= data.text %></p>
+  <div id="blogText">
+    <p>
+      <%= data.text[0] %>
+    </p>
+    <p>
+      <%= data.text[1] %>
+    </p>
+  </div>
 </body>
 
 <%- include('global/footer'); %>
