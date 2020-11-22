@@ -8,17 +8,17 @@
   <div class="row">
     <div class="col s4">
       <h3>
-        <%= data.author %>
+        <%= data.author %> <!-- author -->
       </h3>
     </div>
     <div class="col s4">
       <h3>
-        <%= data.date %>
+        <%= data.date %> <!-- date -->
       </h3>
     </div>
     <div class="col s4">
       <div class="collection">
-        <% for(let i=0; i<data.tags.length; i++){ %>
+        <% for(let i=0; i<data.tags.length; i++){ %> <!-- tags -->
         <h3 class="collection-item teal lighten-1">
           <%= data.tags[i] %>
         </h3>
@@ -28,10 +28,10 @@
   </div>
   <div id="blogText">
     <p>
-      <%= data.text[0] %>
+      <%= data.text[0] %> <!-- para 1 -->
     </p>
     <p>
-      <%= data.text[1] %>
+      <%= data.text[1] %> <!-- para 2 -->
     </p>
   </div>
 </body>

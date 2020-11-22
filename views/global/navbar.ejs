@@ -9,7 +9,7 @@
  </div>
  <div class="nav-content">
    <ul class="tabs tabs-transparent">
-     <% for(let i=0; i< blog_array.length ; i++){ %>
+     <% for(let i=0; i< blog_array.length ; i++){ %> <!-- link to blog articles -->
        <li class="tab"><a href = <%= blog_array[i].title.trim().replace(/ /g, "_") + ".html" %>> <%= blog_array[i].title %> </a></li>
      <%}%>
    </ul>
